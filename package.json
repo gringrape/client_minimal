@@ -1,0 +1,31 @@
+{
+  "name": "client_minimal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gringrape/client_minimal.git"
+  },
+  "keywords": [],
+  "author": "Jin Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gringrape/client_minimal/issues"
+  },
+  "homepage": "https://github.com/gringrape/client_minimal#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {}
+}
